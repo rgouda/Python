@@ -1,0 +1,16 @@
+#chart-demo {
+    width: 100%;
+}
+
+#selectbox {
+    float: right;
+}
+
+.action {
+    width: 270px;
+    margin-top: 20px;
+}
+
+.label {
+    padding-top: 9px;
+}

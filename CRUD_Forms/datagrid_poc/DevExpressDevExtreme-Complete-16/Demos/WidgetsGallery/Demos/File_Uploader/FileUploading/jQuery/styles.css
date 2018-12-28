@@ -1,0 +1,18 @@
+.content h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+ 
+.option{
+    margin-bottom: 10px;
+}
+ 
+.content {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+ 
+.selected-item {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+/deep/ .form a {
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+/deep/ .form a:hover {
+    text-decoration: none;
+}
+/deep/ #link4 {
+    border-bottom-style: solid;
+}

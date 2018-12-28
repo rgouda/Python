@@ -1,0 +1,18 @@
+/deep/ .gallery-container {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+/deep/ #gallery {
+    margin: auto;
+}
+/deep/ .options {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+/deep/ .option {
+    display: block;
+    margin-bottom: 5px;
+}

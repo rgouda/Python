@@ -1,0 +1,19 @@
+<dx-range-selector 
+    id="range-selector"
+    title="Select House Price Range">
+    <dxo-margin [top]="50"></dxo-margin>
+    <dxo-size [height]="210"></dxo-size>
+    <dxo-scale
+        [startValue]="15000"
+        [endValue]="150000"
+        [minorTickInterval]="500"
+        [tickInterval]="15000">
+        <dxo-label format="currency"></dxo-label>
+        <dxo-minor-tick [visible]="false"></dxo-minor-tick>
+    </dxo-scale>
+    <dxo-slider-marker format="currency"></dxo-slider-marker>
+    <dxo-selected-range 
+        [startValue]="40000"
+        [endValue]="80000">
+    </dxo-selected-range>
+</dx-range-selector>

@@ -19,10 +19,10 @@ class TestMultiples(unittest.TestCase):
     def test_euler_question(self):
         self.assertEqual(self.m.sum(0, 1000), 233168)
 
-
-def test_main():
-    test_support.run_unittest(TestMultiples, )
-
-
-if __name__ == '__main__':
-    test_main()
+#
+# def test_main():
+#     test_support.run_unittest(TestMultiples, )
+#
+#
+# if __name__ == '__main__':
+#     test_main()

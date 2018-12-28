@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+    <title>Multi-Row Headers (Bands)</title>
+    <docUrl>UI_Widgets/dxDataGrid/Configuration/columns#columns</docUrl>
+    <credits>www.wikipedia.org</credits>
+    <category>Columns</category>
+    <sortingIndex>400</sortingIndex>
+    <demoType>Web</demoType>
+</case>

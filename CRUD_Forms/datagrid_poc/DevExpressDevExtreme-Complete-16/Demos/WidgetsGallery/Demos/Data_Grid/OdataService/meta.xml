@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+    <title>OData Service</title>
+    <category>Grid Data Binding</category>
+    <sortingIndex>400</sortingIndex>
+    <demoType>Web</demoType>
+</case>

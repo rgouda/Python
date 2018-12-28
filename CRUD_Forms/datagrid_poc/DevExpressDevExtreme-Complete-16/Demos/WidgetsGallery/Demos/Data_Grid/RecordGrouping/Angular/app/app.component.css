@@ -1,0 +1,14 @@
+/deep/ #gridContainer {
+    width: 100%;
+    height: auto;
+}
+/deep/ .options > div {
+    margin-top: 5px;
+}
+/deep/ .options > div > div:first-child {
+    float: left;
+    margin: 1px 20px 1px 0;
+}
+/deep/ .options > div > div:last-child {
+    line-height: 24px;
+}

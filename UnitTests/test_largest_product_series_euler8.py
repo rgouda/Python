@@ -1,5 +1,5 @@
 import unittest
-from Euler.largest_product_in_series_euler8 import largest_product_in_series
+from Euler.largest_product_in_series_euler8 import largest_product_in_series, Matrix
 
 class TestLargestProductInSeries(unittest.TestCase):
     def setUp(self):

@@ -1,0 +1,22 @@
+#grid {
+    position: relative;
+}
+
+#grid-container {
+    height: auto;
+    margin-top: 10px;
+}
+
+#select-prefix {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.selected-data {
+    margin-top: 10px;
+}
+
+.dark .selected-data {
+    color: #a8a8a8;
+}

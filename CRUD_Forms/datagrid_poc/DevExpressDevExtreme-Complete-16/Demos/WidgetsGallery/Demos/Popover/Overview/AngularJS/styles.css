@@ -1,0 +1,14 @@
+.form a {
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: none;
+}
+
+#link4 {
+    border-bottom-style: solid;
+}

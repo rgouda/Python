@@ -87,9 +87,9 @@ class PrimeFactors:
             if self.all_primes[mid] == val:
                 return True
             elif val < self.all_primes[mid]:
-                (left, right) = (left, mid-1)
+                right = mid - 1
             else:
-                (left, right) = (mid+1, right)
+                left =  mid + 1
 
         return False
 

@@ -1,0 +1,34 @@
+<div class="gallery-container">
+    <dx-gallery #gallery
+        id="gallery"
+        [dataSource]="dataSource"
+        [height]="300"
+        [slideshowDelay]="slideshowDelay"
+        [loop]="true"
+        [showNavButtons]="true"
+        [showIndicator]="true"
+    ></dx-gallery>
+</div>
+<div class="options">
+    <dx-check-box #loop
+        class="option"
+        text="Loop mode"
+        [(value)]="gallery.loop">
+    </dx-check-box>
+    <dx-check-box
+        class="option"
+        text="Slide show"
+        (onValueChanged)="valueChanged($event)"
+        [value]="true">
+    </dx-check-box>
+    <dx-check-box
+        class="option"
+        text="Navigation buttons"
+        [(value)]="gallery.showNavButtons">
+    </dx-check-box>
+    <dx-check-box
+        class="option"
+        text="Indicator"
+        [(value)]="gallery.showIndicator">
+    </dx-check-box>
+</div>

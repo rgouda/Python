@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+    <title>Virtual Scrolling</title>
+    <docUrl>UI_Widgets/dxPivotGrid</docUrl>
+    <category>Pivot Grid Features</category>
+    <sortingIndex>700</sortingIndex>
+    <demoType>Web</demoType>
+</case>

@@ -1,0 +1,31 @@
+/deep/ .dx-datagrid-header-panel .dx-toolbar {
+    margin: 0;
+    padding-right: 20px;
+    background-color: #5186C3;
+}
+/deep/ .dx-datagrid-header-panel .dx-toolbar-items-container  {
+    height: 70px;
+}
+/deep/ .dx-datagrid-header-panel .dx-toolbar-before {
+    background-color: #337AB7;
+}
+/deep/ .dx-datagrid-header-panel .dx-selectbox {
+     margin: 17px 10px;
+}
+/deep/ .dx-datagrid-header-panel .dx-button {
+     margin: 17px 0;
+}
+/deep/ .informer {
+    height: 70px;
+    width: 130px;
+    text-align: center;
+    background: #2A507C url("../../../../images/icons/arrow.png") no-repeat 100% 50%;
+}
+/deep/ .count {
+    color: #fff;
+    padding-top: 15px;
+    line-height: 27px;
+}
+/deep/ .name {
+    color: #619dd1;
+}

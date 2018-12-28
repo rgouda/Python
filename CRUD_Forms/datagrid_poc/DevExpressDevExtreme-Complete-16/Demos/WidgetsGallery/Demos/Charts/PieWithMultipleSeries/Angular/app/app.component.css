@@ -1,0 +1,7 @@
+/deep/ #pie {
+    height: 440px;
+    width: 100%;
+}
+/deep/ #pie * {
+    margin: 0 auto;
+}

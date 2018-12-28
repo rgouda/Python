@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+    <title>File Selection</title>
+    <isMobile>true</isMobile>
+    <hideWinPhone>true</hideWinPhone>
+    <category>Actions and Lists</category>
+    <sortingIndex>200</sortingIndex>
+</case>

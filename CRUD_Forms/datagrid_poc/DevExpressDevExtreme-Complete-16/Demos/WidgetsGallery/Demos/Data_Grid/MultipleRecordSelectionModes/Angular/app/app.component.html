@@ -1,0 +1,57 @@
+<div id="grid">
+    <div class="select-all-mode">
+        <span>Select All Mode</span>
+        <dx-select-box
+            id="select-all-mode"
+            #selectAllMode
+            [dataSource]="['allPages', 'singlePage']"
+            value="allPages"
+            [disabled]="showCheckBoxesMode ? showCheckBoxesMode.value === 'none' : true"
+        ></dx-select-box>
+    </div>
+    <div class="checkboxes-mode">
+        <span>Show Checkboxes Mode</span>
+        <dx-select-box
+            id="show-checkboxes-mode"
+            #showCheckBoxesMode
+            [dataSource]="['none', 'onClick', 'onLongTap', 'always']"
+            value="onClick"
+        ></dx-select-box>
+    </div>
+    <dx-data-grid
+        id="grid-container"
+        [dataSource]="sales">
+        <dxo-selection
+            [selectAllMode]="selectAllMode.value"
+            [showCheckBoxesMode]="showCheckBoxesMode.value"
+            mode="multiple"
+        ></dxo-selection>
+        <dxo-paging
+            [pageSize]="10"
+        ></dxo-paging>
+        <dxo-filter-row
+            [visible]="true"
+        ></dxo-filter-row>
+        <dxi-column
+            dataField="orderId"
+            caption="Order ID"
+            [width]="90"
+        ></dxi-column>
+        <dxi-column
+            dataField="country"
+            [width]="180"
+        ></dxi-column>
+        <dxi-column
+            dataField="region"
+        ></dxi-column>
+        <dxi-column
+            dataField="date"
+            dataType="date"
+        ></dxi-column>
+        <dxi-column
+            dataField="amount"
+            format="currency"
+            [width]="90"
+        ></dxi-column>
+    </dx-data-grid>
+</div>
