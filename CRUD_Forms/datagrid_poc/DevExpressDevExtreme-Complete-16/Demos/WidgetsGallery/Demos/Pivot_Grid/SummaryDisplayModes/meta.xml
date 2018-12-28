@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<case>
-    <title>Summary Display Modes</title>
-    <docUrl>Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode</docUrl>
-    <category>Pivot Grid Features</category>
-    <sortingIndex>500</sortingIndex>
-    <demoType>Web</demoType>
-</case>

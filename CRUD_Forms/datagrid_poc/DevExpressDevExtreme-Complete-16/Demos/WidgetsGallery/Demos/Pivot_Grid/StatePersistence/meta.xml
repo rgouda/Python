@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<case>
-    <title>State Persistence</title>
-    <docUrl>UI_Widgets/dxPivotGrid</docUrl>
-    <category>Pivot Grid Features</category>
-    <sortingIndex>800</sortingIndex>
-    <demoType>Web</demoType>
-</case>

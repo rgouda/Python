@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<case>
-    <title>File Uploading</title>
-    <isMobile>true</isMobile>
-    <hideWinPhone>true</hideWinPhone>
-    <category>Actions and Lists</category>
-    <sortingIndex>300</sortingIndex>
-</case>

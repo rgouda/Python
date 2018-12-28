@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<case>
-    <title>Local Data Source</title>
-    <framePostfix>zip</framePostfix>
-    <docUrl>UI_Widgets/dxPivotGrid</docUrl>
-    <category>Pivot Grid Data Binding</category>
-    <sortingIndex>200</sortingIndex>
-    <demoType>Web</demoType>
-</case>
