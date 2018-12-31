@@ -17,9 +17,18 @@ def largest_product_in_series(array, n):
         product = functools.reduce(operator.mul, series)
         if product > prev_product:
             prev_product = product
-            save_series = copy.copy(series)
+            save_series = copy_circular_array(series, i, n)
 
     return (save_series, prev_product)
+
+
+'''Copies array preserving original order'''
+def copy_circular_array(arr, s, n):
+    ret_arr = []
+    s=(s+1)%n
+    ret_arr.extend(arr[s:n])
+    ret_arr.extend(arr[0:s])
+    return ret_arr
 
 
 '''
